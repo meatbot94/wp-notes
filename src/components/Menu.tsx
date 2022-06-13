@@ -1,8 +1,8 @@
 // styles
 import '../styles/Menu.scss';
 
-function Menu(): JSX.Element {
+const Menu: React.FC = (): JSX.Element => {
   return <aside className="menu"></aside>;
-}
+};
 
 export default Menu;

@@ -5,7 +5,7 @@ import Menu from './Menu';
 import Notes from './Notes';
 import Editor from './Editor';
 
-function App(): JSX.Element {
+const App: React.FC = (): JSX.Element => {
   return (
     <div className="app">
       <Menu />
@@ -13,6 +13,6 @@ function App(): JSX.Element {
       <Editor />
     </div>
   );
-}
+};
 
 export default App;
