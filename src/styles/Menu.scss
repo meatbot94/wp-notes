@@ -1,7 +1,16 @@
 .menu {
   width: 258px;
   height: 100vh;
-  // ---
+  padding: 40px 24px 0 24px;
+  box-sizing: border-box;
   background: var(--light-gray04);
   border-right: 1px solid var(--light-gray03);
+}
+
+.menu__logo {
+  margin: 0 0 42px 0;
+}
+
+.menu__searchBar {
+  margin: 0 0 36px 0;
 }

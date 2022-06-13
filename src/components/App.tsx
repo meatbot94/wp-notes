@@ -1,16 +1,20 @@
+// react router
+import { Routes, Route } from 'react-router-dom';
+
 // styles
 import '../styles/App.scss';
+
 // components
 import Menu from './Menu';
-import Notes from './Notes';
-import Editor from './Editor';
+import Blog from './Blog';
 
 const App: React.FC = (): JSX.Element => {
   return (
     <div className="app">
       <Menu />
-      <Notes />
-      <Editor />
+      <Routes>
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
     </div>
   );
 };
